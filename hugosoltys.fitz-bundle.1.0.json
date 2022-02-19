@@ -17,22 +17,6 @@
                 ]
             },
             "files": {
-                "config/routes/dev/hugosoltys_fitz.yaml": {
-                    "contents": [
-                        "fitz:",
-                        "    resource: \"@FitzBundle/Resources/config/routing.xml\"",
-                        ""
-                    ],
-                    "executable": false
-                },
-                "config/routes/test/hugosoltys_fitz.yaml": {
-                    "contents": [
-                        "fitz:",
-                        "    resource: \"@FitzBundle/Resources/config/routing.xml\"",
-                        ""
-                    ],
-                    "executable": false
-                },
                 "config/packages/dev/hugosoltys_fitz.yaml": {
                     "contents": [
                         "fitz:",
@@ -47,6 +31,22 @@
                         "fitz:",
                         "    composer_path: '/usr/local/bin/composer'",
                         "    queue_file_path: '%kernel.project_dir%/vendor/hugosoltys/fitz-bundle'",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/dev/hugosoltys_fitz.yaml": {
+                    "contents": [
+                        "fitz:",
+                        "    resource: \"@FitzBundle/Resources/config/routing.xml\"",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "config/routes/test/hugosoltys_fitz.yaml": {
+                    "contents": [
+                        "fitz:",
+                        "    resource: \"@FitzBundle/Resources/config/routing.xml\"",
                         ""
                     ],
                     "executable": false

@@ -13,14 +13,6 @@
                 }
             },
             "files": {
-                "public/webtemp/.gitignore": {
-                    "contents": [
-                        "*",
-                        "!.gitignore",
-                        ""
-                    ],
-                    "executable": false
-                },
                 "config/packages/dev/web_loader.yaml": {
                     "contents": [
                         "web_loader:",
@@ -35,6 +27,14 @@
                         "    pathPlaceholders:",
                         "    filesCollections:",
                         "    filesCollectionsContainers:",
+                        ""
+                    ],
+                    "executable": false
+                },
+                "public/webtemp/.gitignore": {
+                    "contents": [
+                        "*",
+                        "!.gitignore",
                         ""
                     ],
                     "executable": false

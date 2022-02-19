@@ -12,10 +12,14 @@
                 }
             },
             "files": {
-                "config/routes/metrics.yaml": {
+                "config/packages/prometheus_metrics.yaml": {
                     "contents": [
-                        "app_metrics:",
-                        "    resource: '@ArtprimaPrometheusMetricsBundle/Resources/config/routing.xml'",
+                        "artprima_prometheus_metrics:",
+                        "    namespace: myapp",
+                        "    type: apcu",
+                        "    ignored_routes:",
+                        "    - prometheus_bundle_prometheus",
+                        "    - _wdt",
                         ""
                     ],
                     "executable": false
@@ -28,14 +32,10 @@
                     ],
                     "executable": false
                 },
-                "config/packages/prometheus_metrics.yaml": {
+                "config/routes/metrics.yaml": {
                     "contents": [
-                        "artprima_prometheus_metrics:",
-                        "    namespace: myapp",
-                        "    type: apcu",
-                        "    ignored_routes:",
-                        "    - prometheus_bundle_prometheus",
-                        "    - _wdt",
+                        "app_metrics:",
+                        "    resource: '@ArtprimaPrometheusMetricsBundle/Resources/config/routing.xml'",
                         ""
                     ],
                     "executable": false

@@ -23,7 +23,7 @@
                         "",
                         "# Define your clients here. The example below connects to database 0 of the default Redis server.",
                         "#",
-                        "# See https://github.com/snc/SncRedisBundle/blob/master/Resources/doc/index.md for instructions on",
+                        "# See https://github.com/snc/SncRedisBundle/blob/master/docs/README.md for instructions on",
                         "# how to configure the bundle.",
                         "#",
                         "#        default:",
@@ -35,7 +35,7 @@
                     "executable": false
                 }
             },
-            "ref": "85bbdb3d2db531e20874de29bab0587f93604fa8"
+            "ref": "36b3d9ab65be62de4e085a25e6ca899efa96b1f3"
         }
     }
 }

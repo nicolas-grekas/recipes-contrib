@@ -12,11 +12,10 @@
                 }
             },
             "files": {
-                "config/routes/orbitale_easy_impress.yaml": {
+                "config/packages/orbitale_easy_impress.yaml": {
                     "contents": [
                         "easy_impress:",
-                        "    resource: '@EasyImpressBundle/Resources/config/routing.yml'",
-                        "    prefix: /presentations",
+                        "    presentations_dir: '%kernel.project_dir%/config/presentations'",
                         ""
                     ],
                     "executable": false
@@ -42,10 +41,11 @@
                     ],
                     "executable": false
                 },
-                "config/packages/orbitale_easy_impress.yaml": {
+                "config/routes/orbitale_easy_impress.yaml": {
                     "contents": [
                         "easy_impress:",
-                        "    presentations_dir: '%kernel.project_dir%/config/presentations'",
+                        "    resource: '@EasyImpressBundle/Resources/config/routing.yml'",
+                        "    prefix: /presentations",
                         ""
                     ],
                     "executable": false
