@@ -1,6 +1,9 @@
 {
     "aliases": [],
     "recipes": {
+        "abel/keycloak-bearer-only-adapter-bundle": [
+            "1.0"
+        ],
         "ad3n/ratchet-bundle": [
             "0.4"
         ],
@@ -114,6 +117,12 @@
         ],
         "birkof/netopia-mobilpay-bundle": [
             "1.0"
+        ],
+        "bitbag/cms-plugin": [
+            "3.0"
+        ],
+        "bitbag/mailchimp-plugin": [
+            "1.2"
         ],
         "bitbag/product-bundle-plugin": [
             "1.2"
@@ -264,10 +273,22 @@
             "1.0",
             "2.3"
         ],
+        "datana-gmbh/doctrine-datetime-milliseconds-type": [
+            "1.0"
+        ],
+        "datana-gmbh/doctrine-postgres-milliseconds-platform": [
+            "1.0"
+        ],
         "datana-gmbh/intercom-config": [
             "1.1"
         ],
+        "datana-gmbh/logz-io-handler": [
+            "1.0"
+        ],
         "datana-gmbh/sendgrid-dynamic-template-mailer": [
+            "1.0"
+        ],
+        "datana-gmbh/zammad-api": [
             "1.0"
         ],
         "deamon/logger-extra-bundle": [
@@ -275,6 +296,9 @@
         ],
         "debril/rss-atom-bundle": [
             "4.0"
+        ],
+        "defixit/anonlytics-bundle": [
+            "1.0"
         ],
         "dekalee/autopilot-bundle": [
             "1.0"
@@ -543,6 +567,9 @@
         "hans-peter-ording/nflfastr-symfony-bundle": [
             "0.9"
         ],
+        "happyr/entity-exists-validation-constraint": [
+            "1.0"
+        ],
         "happyr/json-api-response-factory": [
             "0.1"
         ],
@@ -616,10 +643,12 @@
         ],
         "jane-php/json-schema": [
             "5.0",
-            "6.0"
+            "6.0",
+            "7.0"
         ],
         "jane-php/open-api-common": [
-            "6.0"
+            "6.0",
+            "7.0"
         ],
         "jawira/case-converter-twig": [
             "0.0"
@@ -646,7 +675,7 @@
         "jsor/doctrine-postgis": [
             "1.7"
         ],
-        "jupi007/prestashop-webservice-bundle": [
+        "jupi/prestashop-webservice-bundle": [
             "1.0"
         ],
         "jurry/amqp-symfony-bundle": [
@@ -703,13 +732,17 @@
         ],
         "kunstmaan/admin-bundle": [
             "5.2",
-            "5.9"
+            "5.9",
+            "5.10"
         ],
         "kunstmaan/adminlist-bundle": [
             "5.2"
         ],
         "kunstmaan/config-bundle": [
             "5.2"
+        ],
+        "kunstmaan/cookie-bundle": [
+            "6.0"
         ],
         "kunstmaan/dashboard-bundle": [
             "5.2"
@@ -758,14 +791,14 @@
         "lag/adminbundle": [
             "1.0"
         ],
-        "league/flysystem-bundle": [
-            "1.0"
-        ],
         "league/tactician-bundle": [
             "1.0"
         ],
         "leapt/core-bundle": [
             "2.2"
+        ],
+        "leapt/froala-editor-bundle": [
+            "1.0"
         ],
         "leapt/im-bundle": [
             "2.0"
@@ -801,6 +834,9 @@
             "0.1"
         ],
         "loophp/psr17": [
+            "1.0"
+        ],
+        "loophp/repository-monadic-helper": [
             "1.0"
         ],
         "m-adamski/symfony-mailer-bundle": [
@@ -920,6 +956,9 @@
         "monsieurbiz/sylius-admin-better-login-plugin": [
             "1.0"
         ],
+        "monsieurbiz/sylius-advanced-option-plugin": [
+            "1.0"
+        ],
         "monsieurbiz/sylius-alert-message-plugin": [
             "1.0"
         ],
@@ -928,6 +967,12 @@
         ],
         "monsieurbiz/sylius-coliship-plugin": [
             "0.1"
+        ],
+        "monsieurbiz/sylius-homepage-plugin": [
+            "1.0"
+        ],
+        "monsieurbiz/sylius-menu-plugin": [
+            "1.0"
         ],
         "monsieurbiz/sylius-no-commerce-plugin": [
             "0.1"
@@ -939,6 +984,9 @@
             "1.0"
         ],
         "monsieurbiz/sylius-settings-plugin": [
+            "1.0"
+        ],
+        "monsieurbiz/sylius-shipping-slot-plugin": [
             "1.0"
         ],
         "monsieursloop/woleet-bundle": [
@@ -1039,6 +1087,9 @@
         "numberninecms/cms": [
             "0.2"
         ],
+        "nyholm/sunflower": [
+            "0.2"
+        ],
         "nzo/url-encryptor-bundle": [
             "6.0"
         ],
@@ -1122,7 +1173,9 @@
             "0.2"
         ],
         "pentatrion/vite-bundle": [
-            "0.1"
+            "0.1",
+            "0.2",
+            "1.0"
         ],
         "php-amqplib/rabbitmq-bundle": [
             "1.12"
@@ -1165,6 +1218,9 @@
             "1.0"
         ],
         "phpzlc/rbac-business": [
+            "1.0"
+        ],
+        "phpzlc/snapshot-business": [
             "1.0"
         ],
         "phpzlc/upload-business": [
@@ -1239,6 +1295,9 @@
         "redrat/api-helper-bundle": [
             "0.1"
         ],
+        "rikudou/psr6-dynamo-db-bundle": [
+            "2.0"
+        ],
         "ro0nl/http-responder": [
             "0.1"
         ],
@@ -1304,11 +1363,20 @@
             "3.64",
             "4.0"
         ],
+        "sonata-project/block-bundle": [
+            "4.11"
+        ],
         "sonata-project/classification-bundle": [
             "3.7"
         ],
         "sonata-project/core-bundle": [
             "3.9"
+        ],
+        "sonata-project/doctrine-extensions": [
+            "1.8"
+        ],
+        "sonata-project/exporter": [
+            "2.4"
         ],
         "sonata-project/form-extensions": [
             "1.0",
@@ -1325,6 +1393,9 @@
         ],
         "sonata-project/translation-bundle": [
             "2.3"
+        ],
+        "sonata-project/twig-extensions": [
+            "1.2"
         ],
         "spiechu/symfony-commons-bundle": [
             "0.1"
@@ -1359,7 +1430,8 @@
             "2.0"
         ],
         "sulu/form-bundle": [
-            "2.0"
+            "2.0",
+            "2.2"
         ],
         "sulu/headless-bundle": [
             "0.1"
@@ -1522,6 +1594,9 @@
         "vich/uploader-bundle": [
             "1.7"
         ],
+        "victor-prdh/recaptcha-bundle": [
+            "1.5"
+        ],
         "vincentchalamon/nav-bundle": [
             "1.0"
         ],
@@ -1587,8 +1662,14 @@
         "zendesk/zendesk_api_client_php": [
             "2.2"
         ],
+        "zenstruck/redis": [
+            "0.1"
+        ],
         "zenstruck/signed-url-bundle": [
             "0.1"
+        ],
+        "zenstruck/twig-service-bundle": [
+            "0.2"
         ],
         "zephyr/allmysms-bundle": [
             "1.0"
@@ -1604,20 +1685,26 @@
         "jane-php/json-schema": {
             "6.0": {
                 "symfony/symfony": "<5.0"
+            },
+            "7.0": {
+                "symfony/symfony": "<5.0"
             }
         },
         "jane-php/open-api-common": {
             "6.0": {
                 "symfony/symfony": "<5.0"
+            },
+            "7.0": {
+                "symfony/symfony": "<5.0"
             }
         }
     },
     "versions": [],
-    "branch": "master",
+    "branch": "main",
     "is_contrib": true,
     "_links": {
         "repository": "github.com/nicolas-grekas/recipes-contrib",
-        "origin_template": "{package}:{version}@github.com/nicolas-grekas/recipes-contrib:master",
+        "origin_template": "{package}:{version}@github.com/nicolas-grekas/recipes-contrib:main",
         "recipe_template": "https://raw.githubusercontent.com/nicolas-grekas/recipes-contrib/flex/main/{package_dotted}.{version}.json",
         "recipe_template_relative": "{package_dotted}.{version}.json",
         "archived_recipes_template": "https://raw.githubusercontent.com/nicolas-grekas/recipes-contrib/flex/main/archived/{package_dotted}/{ref}.json",

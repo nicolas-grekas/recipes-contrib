@@ -25,6 +25,7 @@
                     "contents": [
                         "imports:",
                         "    - { resource: \"@BitBagSyliusShippingExportPlugin/Resources/config/config.yml\" }",
+                        "",
                         ""
                     ],
                     "executable": false
@@ -39,7 +40,7 @@
                     "executable": false
                 }
             },
-            "ref": "4095c0f7a2cc51e0f40e806ad7d3256ef5f42ae2"
+            "ref": "92782b61536c8d9d29f3e7341fee798b46b96d04"
         }
     }
 }
